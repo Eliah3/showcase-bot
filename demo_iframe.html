@@ -139,7 +139,7 @@
     addMsg('user', text);
     addTyping();
     try {
-      var res = await fetch('https://zahlengrafik-bot.onrender.com/chat', {
+      var res = await fetch('https://showcase-bot.onrender.com/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: text, history: chatHistory })
