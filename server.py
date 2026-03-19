@@ -23,11 +23,22 @@ CORS(app)
 # API Key aus Umgebungsvariable (sicher fuer GitHub/Render)
 NVIDIA_API_KEY = os.environ.get("NVIDIA_API_KEY", "NVIDIA_API_KEY_HIER")
 
-SYSTEM_PROMPT = """Du bist der KI-Assistent von ZahlenGrafik (zahlengrafik.de), Experte fuer JTL-Schnittstellen.
-Produkte: JTL-Connectoren (Shopify, Billbee, WooCommerce, Otto, Zalando, Temu, Allegro, Galaxus u.v.m.), JTL-FFN Fulfillment, JTL-SCX.
-Preise: Light 19EUR/Monat, Standard 69EUR, Premium 99EUR, Premium Plus 249EUR, Enterprise auf Anfrage.
-Kontakt: +49 7221 92275-10, sales@zahlengrafik.io.
-Antworte auf Deutsch, kurz (2-3 Saetze) und freundlich."""
+# Firmen-Infos aus infos.txt laden
+def load_infos():
+    try:
+        with open("infos.txt", "r", encoding="utf-8") as f:
+            return f.read()
+    except:
+        return "Keine Infos gefunden. Bitte infos.txt anlegen."
+
+SYSTEM_PROMPT = """Du bist der freundliche KI-Assistent von ZahlenGrafik (zahlengrafik.de).
+Beantworte Fragen ausschliesslich basierend auf den folgenden Firmen-Informationen.
+Antworte immer auf Deutsch, kurz (2-3 Saetze) und freundlich.
+Bei Fragen ausserhalb deines Wissens verweise auf: +49 7221 92275-10 oder sales@zahlengrafik.io
+
+FIRMEN-INFORMATIONEN:
+{infos}
+""".format(infos=load_infos())
 
 
 @app.route("/")

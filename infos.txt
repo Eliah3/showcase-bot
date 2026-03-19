@@ -1,0 +1,92 @@
+# FIRMEN-INFORMATIONEN FÜR DEN KI-ASSISTENTEN
+# =============================================
+# Diese Datei wird vom Bot als Wissensbasis verwendet.
+# Einfach bearbeiten und speichern — der Bot nutzt automatisch die neuen Infos.
+
+## ÜBER UNS
+ZahlenGrafik ist ein erfahrenes Team von Informatikern & Ingenieuren spezialisiert auf JTL-Wawi Schnittstellen, Connectoren und Anbindungen.
+Slogan: #WirSindSchnittstelle
+Gegründet von: Jürgen Bisch, Dipl.-Inform. (FH) Medien
+Standort: Schillerweg 2, 76547 Sinzheim / Baden-Baden, Deutschland
+Erstellt mit Liebe im Schwarzwald.
+Offizielle JTL Silver Partner.
+
+## KONTAKT
+Telefon: +49 7221 92275-10
+E-Mail Vertrieb: sales@zahlengrafik.io
+E-Mail Allgemein: info@zahlengrafik.de
+Support-Formular: zahlengrafik.de/support
+Onboarding: zahlengrafik.de/onboarding
+
+## ZAHLEN & FAKTEN
+- 901 Connectoren im Einsatz
+- 90.000+ OrderFlow unserer Interfaces
+- 116 verschiedene Anbindungen
+
+## PRODUKTE
+
+### JTL-CONNECTOREN (Anbindungen an JTL-Wawi)
+Wir verbinden JTL-Wawi mit folgenden Systemen:
+Shopify, Billbee, WooCommerce, Otto, Zalando, Allegro, Galaxus Deutschland, Galaxus Schweiz,
+Shopware 5, Shopware 6, Temu, Afterbuy, Xentral, Weclapp, Business Central, Etsy,
+Fressnapf, Decathlon, bol.com, Baby-Walz, Cardmarket, Bricklink, Brickscout,
+TecDoc, Icecat, Snabble, epages, Fruugo, Wix.com, Mirakl, Haufe X360,
+Conrad OCI, Gute Marken, Lego, Avocadostore, Groupon, Shöpping, limango,
+Tradebyte, Shop Apotheke, DocMorris, TEILeHABER, DAPARTO, Best4Automation,
+CSV-Dateien, JSON-Dateien, XML-Dateien, API-Anbindungen
+
+### JTL-FFN (Fulfillment Network Anbindungen)
+Alle JTL-Connectoren sind auch als FFN-Variante verfügbar.
+Wir transferieren: Bestellungen, Sendungsinformationen, Lagerbestände, Artikeldaten.
+
+### JTL-SCX Schnittstellen
+Neue JTL-SCX Engine angebunden. Verfügbar für:
+TikTok, Allegro, Galaxus, DocMorris, Shop Apotheke, Zalando, Fruugo, Temu
+
+### TEMU SCHNITTSTELLEN
+- JTL SCX Temu Schnittstelle
+- Billbee Temu Schnittstelle
+- Afterbuy Temu Schnittstelle
+- weclapp Temu Schnittstelle (in Entwicklung, März 2026)
+
+### IT-ENGINEERING
+Individuelle Schnittstellen und Lösungen im ERP- und E-Commerce Umfeld.
+Automatisierte Datenaufbereitungen, Im- und Exporte.
+Anbindung via API, XML, JSON, EDI, CSV möglich.
+
+## PREISE
+Alle Preise zzgl. MwSt. Gilt ausschließlich für gewerbliche Kunden.
+
+Standard-Preismodell (gilt für die meisten Schnittstellen):
+- Light:        19 € / Monat | 100 Bestellungen | 0,29 € je weitere Bestellung
+- Standard:     69 € / Monat | 500 Bestellungen | 0,21 € je weitere Bestellung
+- Premium:      99 € / Monat | 1.000 Bestellungen | 0,18 € je weitere Bestellung
+- Premium Plus: 249 € / Monat | 3.000 Bestellungen | 0,15 € je weitere Bestellung
+- Enterprise:   Preis auf Anfrage
+
+## EVENTS & NEWS (2026)
+- Multichannel Day: 23. April 2026, Köln — ZahlenGrafik ist vor Ort
+- JTL-PartnerConvention: 29. Mai 2026, Bonn/Siegburg
+- JTL-Connect: 2. Oktober 2026, Köln
+
+## SUPPORT & SERVICE
+- Support-Pakete buchbar
+- Onboarding-Prozess verfügbar
+- Direkter Kontakt: +49 7221 92275-10
+
+## HÄUFIGE FRAGEN
+
+F: Kann ich JTL mit Shopify verbinden?
+A: Ja! Wir bieten einen JTL-Shopify Connector an. Dieser verbindet JTL-Wawi direkt mit Ihrem Shopify-Shop und synchronisiert Bestellungen, Lagerbestände und Artikeldaten.
+
+F: Was kostet eine Schnittstelle?
+A: Unsere Schnittstellen starten ab 19 € / Monat (Light-Paket). Je nach Bestellvolumen empfehlen wir das passende Paket. Für individuelle Anforderungen bieten wir Enterprise-Lösungen auf Anfrage an.
+
+F: Bietet ihr auch individuelle Schnittstellen an?
+A: Ja! Im Bereich IT-Engineering realisieren wir individuelle Schnittstellen für ERP- und E-Commerce Systeme. Kontaktieren Sie uns unter sales@zahlengrafik.io.
+
+F: Was ist JTL-FFN?
+A: Das JTL Fulfillment Network (FFN) ermöglicht die Anbindung an Fulfillment-Dienstleister. Wir bieten alle unsere Connectoren auch als FFN-Variante an.
+
+F: Was ist JTL-SCX?
+A: JTL-SCX ist die neue Schnittstellen-Engine von JTL. Wir haben SCX an unseren Datenkubus angebunden und bieten alle unsere Schnittstellen auch als SCX-Variante an.
