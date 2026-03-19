@@ -84,7 +84,7 @@
 
 <div id="zg-win">
   <div class="zh">
-    <div class="zh-av">ZG</div>
+    <div class="zh-av">OS</div>
     <div>
       <div class="zh-name">Ochsen Sinzheim Assistent</div>
       <div class="zh-status"><div class="zh-dot"></div><span>Online · Gastro-Experte</span></div>
@@ -92,7 +92,7 @@
   </div>
   <div id="zg-msgs">
     <div class="zm bot">
-      <div class="zm-av">ZG</div>
+      <div class="zm-av">OS</div>
       <div class="zm-bubble">Hallo! 👋 Ich bin der KI-Assistent von <b>Ochsen Sinzheim</b>.<br><br>Wie kann ich Ihnen bei JTL-Schnittstellen, Connectoren oder Fulfillment-Anbindungen helfen?</div>
     </div>
   </div>
@@ -123,7 +123,7 @@
     var c = document.getElementById('zg-msgs');
     var d = document.createElement('div');
     d.className = 'zm ' + role;
-    d.innerHTML = '<div class="zm-av">' + (role === 'bot' ? 'ZG' : 'Sie') + '</div>' +
+    d.innerHTML = '<div class="zm-av">' + (role === 'bot' ? 'OS' : 'Sie') + '</div>' +
       '<div class="zm-bubble">' + text.replace(/\n/g, '<br>') + '</div>';
     c.appendChild(d);
     c.scrollTop = c.scrollHeight;
@@ -133,7 +133,7 @@
     var c = document.getElementById('zg-msgs');
     var d = document.createElement('div');
     d.className = 'zm bot'; d.id = 'typing';
-    d.innerHTML = '<div class="zm-av">ZG</div><div class="zm-bubble"><div class="typing-dots"><span></span><span></span><span></span></div></div>';
+    d.innerHTML = '<div class="zm-av">OS</div><div class="zm-bubble"><div class="typing-dots"><span></span><span></span><span></span></div></div>';
     c.appendChild(d); c.scrollTop = c.scrollHeight;
   }
 
