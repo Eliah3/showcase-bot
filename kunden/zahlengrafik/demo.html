@@ -3,17 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ZahlenGrafik – KI Demo</title>
+<title>Zahlengrafik – KI Demo</title>
 <style>
+  :root {
+    --primary:       #dc3232;
+    --primary-light: #e46565;
+    --header-dark:   #621616;
+    --header-mid:    #841e1e;
+    --text-dark:     #420f0f;
+    --shadow-color:  rgba(220,50,50,0.55);
+  }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { overflow: hidden; }
   #site-frame { width: 100vw; height: 100vh; border: none; display: block; }
   #zg-btn {
     position: fixed; bottom: 28px; right: 28px;
     width: 62px; height: 62px;
-    background: linear-gradient(135deg, #5b7fff, #7c9fff);
+    background: linear-gradient(135deg, #dc3232, #e46565);
     border-radius: 50%; border: none; cursor: pointer;
-    box-shadow: 0 4px 24px rgba(91,127,255,0.55);
+    box-shadow: 0 4px 24px rgba(220,50,50,0.55);
     z-index: 2147483647;
     display: flex; align-items: center; justify-content: center;
     transition: transform 0.2s; animation: popIn 0.5s cubic-bezier(.34,1.56,.64,1) 1s both;
@@ -31,8 +39,8 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
   #zg-win.open { transform: scale(1) translateY(0); opacity: 1; pointer-events: all; }
-  .zh { background: linear-gradient(135deg, #1a1a3e, #2d2d6e); padding: 16px; display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
-  .zh-av { width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, #5b7fff, #7c9fff); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.78rem; color: white; flex-shrink: 0; }
+  .zh { background: linear-gradient(135deg, #621616, #841e1e); padding: 16px; display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+  .zh-av { width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, #dc3232, #e46565); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.78rem; color: white; flex-shrink: 0; }
   .zh-name { color: white; font-weight: 600; font-size: 0.9rem; }
   .zh-status { display: flex; align-items: center; gap: 5px; margin-top: 3px; }
   .zh-dot { width: 6px; height: 6px; background: #4ade80; border-radius: 50%; animation: blink 2s infinite; }
@@ -44,20 +52,20 @@
   .zm { display: flex; gap: 8px; animation: slideUp 0.25s ease; }
   @keyframes slideUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
   .zm.user { flex-direction: row-reverse; }
-  .zm-av { width: 28px; height: 28px; border-radius: 8px; background: linear-gradient(135deg,#5b7fff,#7c9fff); display: flex; align-items: center; justify-content: center; font-size: 0.6rem; font-weight: 700; color: white; flex-shrink: 0; align-self: flex-end; }
+  .zm-av { width: 28px; height: 28px; border-radius: 8px; background: linear-gradient(135deg, #dc3232, #e46565); display: flex; align-items: center; justify-content: center; font-size: 0.6rem; font-weight: 700; color: white; flex-shrink: 0; align-self: flex-end; }
   .zm.user .zm-av { background: #e0e0f0; color: #888; }
   .zm-bubble { max-width: 80%; padding: 10px 13px; border-radius: 16px; font-size: 0.83rem; line-height: 1.55; }
-  .zm.bot .zm-bubble { background: white; color: #1a1a2e; border: 1px solid #e8e8f0; border-bottom-left-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-  .zm.user .zm-bubble { background: linear-gradient(135deg,#5b7fff,#7c9fff); color: white; border-bottom-right-radius: 4px; }
+  .zm.bot .zm-bubble { background: white; color: #420f0f; border: 1px solid #e8e8f0; border-bottom-left-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  .zm.user .zm-bubble { background: linear-gradient(135deg, #dc3232, #e46565); color: white; border-bottom-right-radius: 4px; }
   .typing-dots { display: flex; gap: 4px; align-items: center; }
   .typing-dots span { width: 6px; height: 6px; background: #c0c0d0; border-radius: 50%; animation: dot 1.2s infinite; }
   .typing-dots span:nth-child(2){animation-delay:.15s} .typing-dots span:nth-child(3){animation-delay:.3s}
   @keyframes dot { 0%,80%,100%{transform:translateY(0)} 40%{transform:translateY(-6px)} }
   .zi { display: flex; align-items: center; gap: 8px; padding: 11px 13px; background: white; border-top: 1px solid #eee; flex-shrink: 0; }
-  .zi input { flex: 1; border: 1px solid #e0e0ea; border-radius: 22px; padding: 9px 15px; font-size: 0.83rem; outline: none; color: #1a1a2e; background: #f8f9fc; font-family: inherit; transition: border-color 0.2s; }
-  .zi input:focus { border-color: #5b7fff; background: white; }
+  .zi input { flex: 1; border: 1px solid #e0e0ea; border-radius: 22px; padding: 9px 15px; font-size: 0.83rem; outline: none; color: #420f0f; background: #f8f9fc; font-family: inherit; transition: border-color 0.2s; }
+  .zi input:focus { border-color: #dc3232; background: white; }
   .zi input::placeholder { color: #b0b0c8; }
-  .zi button { width: 36px; height: 36px; border-radius: 50%; border: none; background: linear-gradient(135deg,#5b7fff,#7c9fff); cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: transform 0.15s; }
+  .zi button { width: 36px; height: 36px; border-radius: 50%; border: none; background: linear-gradient(135deg, #dc3232, #e46565); cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: transform 0.15s; }
   .zi button:hover { transform: scale(1.1); }
   .zi button:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
   .zb { text-align: center; padding: 5px; font-size: 0.6rem; color: #c0c0d0; background: white; flex-shrink: 0; }
@@ -65,7 +73,7 @@
 </head>
 <body>
 
-<iframe id="site-frame" src="https://www.zahlengrafik.de" title="ZahlenGrafik"></iframe>
+<iframe id="site-frame" src="https://www.zahlengrafik.de" title="Zahlengrafik"></iframe>
 
 <button id="zg-btn" onclick="zgToggle()">
   <div class="notif"></div>
@@ -76,16 +84,16 @@
 
 <div id="zg-win">
   <div class="zh">
-    <div class="zh-av">ZG</div>
+    <div class="zh-av">Z</div>
     <div>
-      <div class="zh-name">ZahlenGrafik Assistent</div>
+      <div class="zh-name">Zahlengrafik Assistent</div>
       <div class="zh-status"><div class="zh-dot"></div><span>Online · JTL-Experte</span></div>
     </div>
   </div>
   <div id="zg-msgs">
     <div class="zm bot">
-      <div class="zm-av">ZG</div>
-      <div class="zm-bubble">Hallo! 👋 Ich bin der KI-Assistent von <b>ZahlenGrafik</b>.<br><br>Wie kann ich Ihnen bei JTL-Schnittstellen, Connectoren oder Fulfillment-Anbindungen helfen?</div>
+      <div class="zm-av">Z</div>
+      <div class="zm-bubble">Hallo! 👋 Ich bin der KI-Assistent von <b>Zahlengrafik</b>.<br><br>Wie kann ich Ihnen bei JTL-Schnittstellen, Connectoren oder Fulfillment-Anbindungen helfen?</div>
     </div>
   </div>
   <div class="zi">
@@ -94,7 +102,7 @@
       <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
     </button>
   </div>
-  <div class="zb">Powered by KI · zahlengrafik.de</div>
+  <div class="zb">Powered by KI</div>
 </div>
 
 <script>
@@ -115,7 +123,7 @@
     var c = document.getElementById('zg-msgs');
     var d = document.createElement('div');
     d.className = 'zm ' + role;
-    d.innerHTML = '<div class="zm-av">' + (role === 'bot' ? 'ZG' : 'Sie') + '</div>' +
+    d.innerHTML = '<div class="zm-av">' + (role === 'bot' ? 'Z' : 'Sie') + '</div>' +
       '<div class="zm-bubble">' + text.replace(/\n/g, '<br>') + '</div>';
     c.appendChild(d);
     c.scrollTop = c.scrollHeight;
@@ -125,7 +133,7 @@
     var c = document.getElementById('zg-msgs');
     var d = document.createElement('div');
     d.className = 'zm bot'; d.id = 'typing';
-    d.innerHTML = '<div class="zm-av">ZG</div><div class="zm-bubble"><div class="typing-dots"><span></span><span></span><span></span></div></div>';
+    d.innerHTML = '<div class="zm-av">Z</div><div class="zm-bubble"><div class="typing-dots"><span></span><span></span><span></span></div></div>';
     c.appendChild(d); c.scrollTop = c.scrollHeight;
   }
 
@@ -139,7 +147,7 @@
     addMsg('user', text);
     addTyping();
     try {
-      var res = await fetch('https://showcase-bot.onrender.com/zahlengrafik/chat', {
+      var res = await fetch('https://showcase-bot.onrender.com/zahlengrafik/chat/{slug}/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: text, history: chatHistory })
