@@ -87,7 +87,7 @@
     <div class="zh-av">LB</div>
     <div>
       <div class="zh-name">LLS Bad Assistent</div>
-      <div class="zh-status"><div class="zh-dot"></div><span>Online · JTL-Experte</span></div>
+      <div class="zh-status"><div class="zh-dot"></div><span>Online · KI-Assistent</span></div>
     </div>
   </div>
   <div id="zg-msgs">
@@ -147,7 +147,7 @@
     addMsg('user', text);
     addTyping();
     try {
-      var res = await fetch('https://showcase-bot.onrender.com/lls-bad/chat/{slug}/chat', {
+      var res = await fetch('https://showcase-bot.onrender.com/lls-bad/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: text, history: chatHistory })
