@@ -1,92 +1,62 @@
-# FIRMEN-INFORMATIONEN FÜR DEN KI-ASSISTENTEN
-# =============================================
-# Diese Datei wird vom Bot als Wissensbasis verwendet.
-# Einfach bearbeiten und speichern — der Bot nutzt automatisch die neuen Infos.
+# FIRMEN-INFORMATIONEN FUER DEN KI-ASSISTENTEN
+# Firma: Zahlengrafik
+# Website: https://www.zahlengrafik.de
 
-## ÜBER UNS
-ZahlenGrafik ist ein erfahrenes Team von Informatikern & Ingenieuren spezialisiert auf JTL-Wawi Schnittstellen, Connectoren und Anbindungen.
-Slogan: #WirSindSchnittstelle
-Gegründet von: Jürgen Bisch, Dipl.-Inform. (FH) Medien
-Standort: Schillerweg 2, 76547 Sinzheim / Baden-Baden, Deutschland
-Erstellt mit Liebe im Schwarzwald.
-Offizielle JTL Silver Partner.
-
-## KONTAKT
+## KONTAKT & OEFFNUNGSZEITEN
+Website: https://www.zahlengrafik.de
 Telefon: +49 7221 92275-10
-E-Mail Vertrieb: sales@zahlengrafik.io
-E-Mail Allgemein: info@zahlengrafik.de
-Support-Formular: zahlengrafik.de/support
-Onboarding: zahlengrafik.de/onboarding
+E-Mail:  sales@zahlengrafik.io
+Adresse: Schillerweg 2, 76547, Sinzheim
 
-## ZAHLEN & FAKTEN
-- 901 Connectoren im Einsatz
-- 90.000+ OrderFlow unserer Interfaces
-- 116 verschiedene Anbindungen
+## BESCHREIBUNG
+ZahlenGrafik.de » Individuelle Schnittstellenprogrammierung aus dem Schwarzwald☑️ eigene Software-Entwicklung☑️ JTL-Servicepartner☑️.
 
-## PRODUKTE
+## WEITERE INFOS (FOOTER)
+Über uns
+Wir sind ein erfahrenes Team von Informatikern & Ingenieuren. Schnittstellen, Anbindungen und Connectoren für die JTL-Wawi und das Fulfillment Network der JTL (FFN) gehören zu unserer Kernkompetenz. Der Bereich IT-Engineering im ERP- und E-Commerce Umfeld ist unser zu Hause.
+Offiziele Partnerschaften
+Unsere Adresse
+ZahlenGrafik
+®
+Jürgen Bisch, Dipl.-Inform. (FH) Medien
+Schillerweg 2 | 76547 Sinzheim / Baden-Baden
+Deutschland
+info@zahlengrafik.de
++49 7221 92275-10
+© 2018-2026 ZahlenGrafik
+®
+Alle Rechte vorbehalten. Erstellt mit ♥ im Schwarzwald.
+Unsere Angebote gelten ausschließlich für den gewerblichen Bedarf von Handel, Handwerk, Industrie, Behörden, Gewerbe und Selbständigen. Alle Preisangaben zzgl. MwSt.
+Wir unterstützen
+5 von 5 Sternen
 
-### JTL-CONNECTOREN (Anbindungen an JTL-Wawi)
-Wir verbinden JTL-Wawi mit folgenden Systemen:
-Shopify, Billbee, WooCommerce, Otto, Zalando, Allegro, Galaxus Deutschland, Galaxus Schweiz,
-Shopware 5, Shopware 6, Temu, Afterbuy, Xentral, Weclapp, Business Central, Etsy,
-Fressnapf, Decathlon, bol.com, Baby-Walz, Cardmarket, Bricklink, Brickscout,
-TecDoc, Icecat, Snabble, epages, Fruugo, Wix.com, Mirakl, Haufe X360,
-Conrad OCI, Gute Marken, Lego, Avocadostore, Groupon, Shöpping, limango,
-Tradebyte, Shop Apotheke, DocMorris, TEILeHABER, DAPARTO, Best4Automation,
-CSV-Dateien, JSON-Dateien, XML-Dateien, API-Anbindungen
+## LEISTUNGEN & ANGEBOTE
+JTL-Wawi | #WirSindSchnittstelle
+März 2026 | weclapp Temu Schnittstelle // Multichannel Day  ... Wir werden in den nächsten Tagen beginnen, eine weclapp Temu Anbindung zu realisieren. Wir kennen die Temu Schnittstelle sehr gut. Und auch für weclapp haben wir schon Anbindungen realisiert. Wir freuen uns!
+Schreiben Sie sich den 23. April in den Kalender. Der Multichannel Day in Köln ist ein absolutes Muss in der Branche. Wir werden vor Ort sein. Wenn der Messekalender schon offen ist, gleich noch den 02. Oktober eintragen. Für uns ein absolutes Pflichtprogramm: JTL-Connect in Köln . Wir freuen uns! Selbstverständlich werden wir auch am 29.05. auf der JTL-PartnerConvention in Bonn/Siegburg sein.
+Haben Sie Fragen, Anregungen oder Wünsche? Melden Sie sich einfach über unser Kontaktformular bei uns.
+Melden Sie sich einfach über unser
+Vielen Dank! Ihr Team von ZahlenGrafik
+JTL-Connectoren Übersicht JTL-Fulfillment Schnittstellen Individuelle Schnittstellen anfragen
+JTL-Fulfillment Schnittstellen
+Individuelle Schnittstellen anfragen
+Finden Sie ganz einfach Ihre passende Schnittstelle!
+OrderFlow unserer Interfaces
+Gerne beraten wir Sie ausführlich, um die geeignete Lösung für Ihre Prozesse zu definieren.
+Wir sind Ihre JTL-Programmierer!
+Wir sind ein erfahrenes Team von Informatikern & Ingenieuren, die sich seit vielen Jahren enthusiastisch bei IT Themenkomplexen engagieren. Sehr viele Jahre an Erfahrung und Engagement in zahlreichen interdisziplinären Projekten bilden die Grundlage, erfolgreich Aufgaben zu realisieren.
+Schwerpunkte bilden folgende Bereiche: Schnittstellen, Anbindungen und Connectoren für die JTL-Wawi und das Fulfillment Network (FFN). Im Themenkomplex IT-Engineering stehen wir für Individualrealisierungen im ERP- und E-Commerce Umfeld zur Verfügung. Automatisierte Datenaufbereitungen, sowie Im- und Exporte sind unser zu Hause.
+Nutzen Sie unsere direkten Schnittstellen in das JTL-FFN. Hier transferieren wir Bestellungen, Sendungsinformationen, Lagerbestände und Artikeldaten. Sämtliche unserer bestehenden Connectoren können Sie mit dem JTL-FFN verbinden. JTL-Fulfillment ...
+Wir haben die neue JTL-SCX Engine an unseren Datenkubus angebunden. Somit können wir Ihnen alle unsere Schnittstellen auch als SCX-Variante anbieten. Dies mit den neuen Möglichkeiten von SCX erweitert. JTL-SCX ...
+Benutzername oder E-Mail-Adresse *
+Angemeldet bleiben Anmelden
+Bitte ergänzen Sie noch die folgenden Angaben, um Ihre unverbindliche Anfrage abzusenden. Wir melden uns schnellstmöglich mit weiteren Informationen zu Ihrer gewünschten Billbee Temu Schnittstelle bei Ihnen zurück.
+Anfrage unverbindlich versenden
+Bitte ergänzen Sie noch die folgenden Angaben, um Ihre unverbindliche Anfrage abzusenden. Wir melden uns schnellstmöglich mit weiteren Informationen zu Ihrer gewünschten Walmart Schnittstelle bei Ihnen zurück.
+Bitte ergänzen Sie noch die folgenden Angaben, um Ihre unverbindliche Anfrage abzusenden. Wir melden uns schnellstmöglich mit weiteren Informationen 
 
-### JTL-FFN (Fulfillment Network Anbindungen)
-Alle JTL-Connectoren sind auch als FFN-Variante verfügbar.
-Wir transferieren: Bestellungen, Sendungsinformationen, Lagerbestände, Artikeldaten.
-
-### JTL-SCX Schnittstellen
-Neue JTL-SCX Engine angebunden. Verfügbar für:
-TikTok, Allegro, Galaxus, DocMorris, Shop Apotheke, Zalando, Fruugo, Temu
-
-### TEMU SCHNITTSTELLEN
-- JTL SCX Temu Schnittstelle
-- Billbee Temu Schnittstelle
-- Afterbuy Temu Schnittstelle
-- weclapp Temu Schnittstelle (in Entwicklung, März 2026)
-
-### IT-ENGINEERING
-Individuelle Schnittstellen und Lösungen im ERP- und E-Commerce Umfeld.
-Automatisierte Datenaufbereitungen, Im- und Exporte.
-Anbindung via API, XML, JSON, EDI, CSV möglich.
-
-## PREISE
-Alle Preise zzgl. MwSt. Gilt ausschließlich für gewerbliche Kunden.
-
-Standard-Preismodell (gilt für die meisten Schnittstellen):
-- Light:        19 € / Monat | 100 Bestellungen | 0,29 € je weitere Bestellung
-- Standard:     69 € / Monat | 500 Bestellungen | 0,21 € je weitere Bestellung
-- Premium:      99 € / Monat | 1.000 Bestellungen | 0,18 € je weitere Bestellung
-- Premium Plus: 249 € / Monat | 3.000 Bestellungen | 0,15 € je weitere Bestellung
-- Enterprise:   Preis auf Anfrage
-
-## EVENTS & NEWS (2026)
-- Multichannel Day: 23. April 2026, Köln — ZahlenGrafik ist vor Ort
-- JTL-PartnerConvention: 29. Mai 2026, Bonn/Siegburg
-- JTL-Connect: 2. Oktober 2026, Köln
-
-## SUPPORT & SERVICE
-- Support-Pakete buchbar
-- Onboarding-Prozess verfügbar
-- Direkter Kontakt: +49 7221 92275-10
-
-## HÄUFIGE FRAGEN
-
-F: Kann ich JTL mit Shopify verbinden?
-A: Ja! Wir bieten einen JTL-Shopify Connector an. Dieser verbindet JTL-Wawi direkt mit Ihrem Shopify-Shop und synchronisiert Bestellungen, Lagerbestände und Artikeldaten.
-
-F: Was kostet eine Schnittstelle?
-A: Unsere Schnittstellen starten ab 19 € / Monat (Light-Paket). Je nach Bestellvolumen empfehlen wir das passende Paket. Für individuelle Anforderungen bieten wir Enterprise-Lösungen auf Anfrage an.
-
-F: Bietet ihr auch individuelle Schnittstellen an?
-A: Ja! Im Bereich IT-Engineering realisieren wir individuelle Schnittstellen für ERP- und E-Commerce Systeme. Kontaktieren Sie uns unter sales@zahlengrafik.io.
-
-F: Was ist JTL-FFN?
-A: Das JTL Fulfillment Network (FFN) ermöglicht die Anbindung an Fulfillment-Dienstleister. Wir bieten alle unsere Connectoren auch als FFN-Variante an.
-
-F: Was ist JTL-SCX?
-A: JTL-SCX ist die neue Schnittstellen-Engine von JTL. Wir haben SCX an unseren Datenkubus angebunden und bieten alle unsere Schnittstellen auch als SCX-Variante an.
+## ANWEISUNGEN FUER DEN ASSISTENTEN
+- Beantworte nur Fragen zu Zahlengrafik
+- Verweise bei komplexen Fragen auf den direkten Kontakt
+- Antworte freundlich und auf Deutsch
+- Halte Antworten kurz (2-3 Saetze)
