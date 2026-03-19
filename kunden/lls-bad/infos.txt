@@ -1,76 +1,64 @@
-# FIRMEN-INFORMATIONEN FÜR DEN KI-ASSISTENTEN
-# Schule: Louis-Lepoix-Schule (LLS Baden-Baden)
+# FIRMEN-INFORMATIONEN FUER DEN KI-ASSISTENTEN
+# Firma: LLS Bad
 # Website: https://www.lls-bad.de
 
-## ÜBER UNS
-Die Louis-Lepoix-Schule ist eine berufliche Schule in Baden-Baden mit technisch-gewerblicher und kunsthandwerklicher Ausrichtung. Sie bietet fünf Berufsfelder, neun Fachrichtungen und vier verschiedene Vollzeit-Schularten an und zeichnet sich durch ein vielfältiges, buntes Bildungsangebot aus.
-
-## KONTAKT
-Adresse: Balger Str. 15, 76532 Baden-Baden
-Telefon: 07221 / 931946
-Telefax: 07221 / 931960
-E-Mail: info@lls-bad.de
+## KONTAKT & OEFFNUNGSZEITEN
 Website: https://www.lls-bad.de
-Stundenplan (WebUntis): https://lls-baden-baden.webuntis.com/
+Telefon: –
+E-Mail:  info@lls-bad.de
 
-## AUSBILDUNGSBERUFE (Duale Ausbildung / Berufsschule)
-Schüler mit Ausbildungsvertrag bei einem Betrieb absolvieren die duale Ausbildung an der LLS:
-- Bäcker/in
-- Konditor/in
-- Fachverkäufer/in im Lebensmittelhandwerk
-- Bauten- und Objektbeschichter/in
-- Maler/in und Lackierer/in
-- Bühnenmaler/in und Bühnenplastiker/in
-- Veranstaltungstechniker/in
-- Friseur/in
-- Maskenbildner/in
-- Mediengestalter/in Digital und Print
+## WEITERE INFOS (FOOTER)
+© Copyright - Louis-Lepoix-Schule
 
-## VOLLZEIT-SCHULARTEN
-Schüler ohne Ausbildungsvertrag können folgende Schularten besuchen:
+## LEISTUNGEN & ANGEBOTE
+TAG DER OFFENEN TÜR | 07.02.2026 mehr erfahren
+TAG DER OFFENEN TÜR | 07.02.2026
+Warum wir die Schule sind, die zu dir passt? Lass dich von Schülerinnen und Schülern überzeugen!
+Warum wir die Schule sind, die zu dir passt?
+Weil gute Bildung Bunt ist. NEU! Das Berufskolleg, Schwerpunkt “Additive Fertigungsverfahren” ZU DEN ANMELDUNGEN
+Weil gute Bildung Bunt ist.
+NEU! Das Berufskolleg, Schwerpunkt “Additive Fertigungsverfahren”
+Technisches Gymnasium weitere Informationen
+Berufskolleg / Berufsfachschule weitere Informationen
+Berufskolleg / Berufsfachschule
+Veranstaltungstechnik weitere Informationen
+Maskenbildner/in weitere Informationen
+Friseur/in weitere Informationen
+Mediengestalter/in weitere Informationen
+Bäcker/in und Bäckereifachverkäufer/in weitere Informationen
+Bäcker/in und Bäckereifachverkäufer/in
+Konditor/in und Konditoreifachverkäufer/in weitere Informationen
+Konditor/in und Konditoreifachverkäufer/in
+Bühnenmaler/in und Bühnenplastiker/in weitere Informationen
+Bühnenmaler/in und Bühnenplastiker/in
+Maler/in und Lackierer/in, Bauten- und Objektbeschichter/in weitere Informationen
+Maler/in und Lackierer/in, Bauten- und Objektbeschichter/in
+Öffnungszeiten des Sekretariats während der Fasnachtsferien
+Tag der offenen Tür am 07 Feb. 26
+Elternabend am 07. Oktober 2025, 18:00 Uhr
+Unterrichtsbeginn 2025-2026
+Präventionstag „Zivilcourage im Netz“
+Liebe Schülerinnen und Schüler, liebe Eltern, liebe Ausbilderinnen und Ausbilder,
+das aktuelle Schuljahr ist weiterhin erheblich von der Corona-Pandemie beeinflusst. Das Kultusministerium des Landes Baden-Württemberg hat dazu eine entsprechende Verordnung (CoronaVO Schule) erlassen.
+Hier können Sie sich über die wichtigsten Vorgaben und Regelungen informieren:
+Wichige Vorgaben und Regelungen
+Für weitere Informationen nutzen Sie bitte unseren elektronischen Stundenplan (WebUntis.) Wir wünschen allen ein erfolgreiches neues Schuljahr!
+Für weitere Informationen nutzen Sie bitte unseren elektronischen Stundenplan
+(WebUntis.) Wir wünschen allen ein erfolgreiches neues Schuljahr!
+Informationen rund um das Thema (u.a. die neuen Prüfungstermine) finden Sie unter folgendem Link:
+weitere Informationen zur aktuellen Situation
+AdobeCC-Lizenzen für Schüler. In Klassen mit dem Schwerpunkt “Mediengestaltung” bieten wir die kompletten AdobeCC-Programme an.
+AdobeCC-Lizenzen für Schüler.
+Weil gute Bildung bunt ist.
+Die Louis-Lepoix-Schule ist eine berufliche Schule in Baden-Baden mit technisch gewerblicher und kunsthandwerklicher Ausrichtung.
+Mit fünf Berufsfeldern, neun Fachrichtungen und vier verschiedenen Vollzeit-Schularten bieten wir die bunte Vielfalt von Angeboten, die uns als Schule ausmacht.
+In der beruflichen Ausbildung bieten wir bei uns zum Beispiel Maskenbildner und Mediengestalter an. Im Vollzeit-Bereich erwerben Schüler an unserer Schule beispielsweise grundlegende Kenntnisse über Additive Fertigungstechnik (3D-Druck).
+Unsere Vielfalt = Deine Möglichkeiten
+Ausbildungs­­vor­­bereitung/AV
+Bühnenmaler/ Bühnenpla
 
-### Technisches Gymnasium (TG)
-Führt zur Allgemeinen Hochschulreife. Profile:
-- Informationstechnik (IT)
-- Gestaltungs- und Medientechnik (GMT)
-
-### Berufskolleg Technik (BK 1 + BK 2)
-Schüler mit mittlerer Reife erwerben in zwei Jahren die Fachhochschulreife. Schwerpunkte:
-- Additive Fertigungstechnik / 3D-Druck (NEU)
-- Kommunikation und Gestaltung
-
-### Berufsfachschulen (BFS)
-Vollzeit-Schulart mit Blockpraktika für:
-- Maskenbildner/in
-- Friseur/in
-- Mediengestalter/in (Drucktechnik)
-
-### Ausbildungsvorbereitung (AV / VA)
-Für Schüler zur Vorbereitung auf eine Ausbildung.
-
-### Vorqualifizierungsjahr Arbeit/Beruf ohne Deutschkenntnisse (VABO / VAB-O)
-Für Schüler ohne Deutschkenntnisse als Einstieg.
-
-## SCHULINFOS
-- Blockpläne für alle Berufsfelder verfügbar unter Schulinfos
-- Ferientermine und bewegliche Ferientage online abrufbar
-- Anmeldung und Formulare: https://www.lls-bad.de/schulinfos/formulare/
-- Schulverwaltung und Schulleitung: https://www.lls-bad.de/schulinfos/schulverwaltung/
-- Prüfungsinformationen: https://www.lls-bad.de/schulinfos/pruefungen/
-- Beratungsangebot: https://www.lls-bad.de/schulinfos/breatung/
-- Förderverein: https://www.lls-bad.de/schulinfos/foerderverein/
-
-## BESONDERHEITEN
-- Adobe Creative Cloud Lizenzen für Schüler im Schwerpunkt Mediengestaltung
-- Kooperationspartner aus der Wirtschaft
-- Aktiver Förderverein
-- SMV (Schülermitverantwortung)
-- Soziale Medien: Instagram (@louislepoixschule), Facebook
-
-## ANWEISUNGEN FÜR DEN ASSISTENTEN
-- Beantworte nur Fragen zur Louis-Lepoix-Schule Baden-Baden
-- Verweise bei komplexen oder persönlichen Anliegen auf direkten Kontakt (Sekretariat)
-- Antworte freundlich, klar und auf Deutsch
-- Halte Antworten kurz (2-3 Sätze), außer bei Bildungsangebots-Fragen
-- Für Anmeldungen: Formulare unter https://www.lls-bad.de/schulinfos/formulare/
-- Für Stundenplan: https://lls-baden-baden.webuntis.com/
+## ANWEISUNGEN FUER DEN ASSISTENTEN
+- Beantworte nur Fragen zu LLS Bad
+- Verweise bei komplexen Fragen auf den direkten Kontakt
+- Antworte freundlich und auf Deutsch
+- Halte Antworten kurz (2-3 Saetze)
