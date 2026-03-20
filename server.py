@@ -57,7 +57,7 @@ def chat(kunde):
         response = requests.post(
             "https://integrate.api.nvidia.com/v1/chat/completions",
             headers={"Content-Type": "application/json", "Authorization": f"Bearer {NVIDIA_API_KEY}"},
-            json={"model": "meta/llama-3.1-70b-instruct", "max_tokens": 400, "messages": messages},
+            json={"model": "meta/llama-3.3-70b-instruct", "max_tokens": 400, "messages": messages},
             timeout=30
         )
         reply = response.json()["choices"][0]["message"]["content"]
